@@ -35,12 +35,18 @@
       },
       "style": {
         "useImportType": "error",
-        "noNamespace": "error"
+        "noNamespace": "error",
+        "useFilenamingConvention": {
+          "level": "error",
+          "options": {
+            "strictCase": false,
+            "requireAscii": true,
+            "filenameCases": ["kebab-case"]
+          }
+        }
       },
       "nursery": {
-        "useNamingConvention": {
-          "level": "warn"
-        }
+        "useSortedClasses": "error"
       },
       "suspicious": {
         "noConsole": "warn"
@@ -69,6 +75,23 @@
         "rules": {
           "suspicious": {
             "noExplicitAny": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/hooks/**/*.{ts,tsx}", "**/_hooks/**/*.{ts,tsx}"],
+      "linter": {
+        "rules": {
+          "style": {
+            "useFilenamingConvention": {
+              "level": "error",
+              "options": {
+                "strictCase": false,
+                "requireAscii": true,
+                "filenameCases": ["kebab-case"]
+              }
+            }
           }
         }
       }
