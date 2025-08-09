@@ -1,11 +1,11 @@
-import { AuthButton } from "@/frontend/components/auth-button";
-import { DeployButton } from "@/frontend/components/deploy-button";
-import { EnvVarWarning } from "@/frontend/components/env-var-warning";
-import { Hero } from "@/frontend/components/hero";
-import { ThemeSwitcher } from "@/frontend/components/theme-switcher";
-import { ConnectSupabaseSteps } from "@/frontend/components/tutorial/connect-supabase-steps";
-import { SignUpUserSteps } from "@/frontend/components/tutorial/sign-up-user-steps";
-import { hasEnvVars } from "@/frontend/lib/utils";
+import { AuthButton } from "@/components/auth-button";
+import { DeployButton } from "@/components/deploy-button";
+import { EnvVarWarning } from "@/components/env-var-warning";
+import { Hero } from "@/components/hero";
+import { ThemeSwitcher } from "@/components/theme-switcher";
+import { ConnectSupabaseSteps } from "@/components/tutorial/connect-supabase-steps";
+import { SignUpUserSteps } from "@/components/tutorial/sign-up-user-steps";
+import { hasEnvVars } from "@/lib/utils";
 import Link from "next/link";
 
 export default function Home() {

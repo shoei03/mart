@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
 
-import { FetchDataSteps } from "@/frontend/components/tutorial/fetch-data-steps";
-import { createClient } from "@/frontend/lib/supabase/server";
+import { FetchDataSteps } from "@/components/tutorial/fetch-data-steps";
+import { createClient } from "@/lib/supabase/server";
 import { InfoIcon } from "lucide-react";
 
 export default async function ProtectedPage() {

@@ -1,4 +1,4 @@
-import { createClient } from "@/frontend/lib/supabase/server";
+import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
 import { LogoutButton } from "./logout-button";
 import { Button } from "./ui/button";
