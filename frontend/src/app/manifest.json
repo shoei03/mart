@@ -1,0 +1,9 @@
+{
+  "name": "SocSEL マート",
+  "short_name": "SocSEL マート",
+  "description": "SocSEL マートは、SocSELの製品を購入するためのオンラインストアです。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff"
+}
